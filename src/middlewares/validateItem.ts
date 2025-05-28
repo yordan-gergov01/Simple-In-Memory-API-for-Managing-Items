@@ -13,4 +13,6 @@ export const validateItem = (
       new AppError("Invalid item name. It must be a non-empty string.", 400)
     );
   }
+
+  next();
 };

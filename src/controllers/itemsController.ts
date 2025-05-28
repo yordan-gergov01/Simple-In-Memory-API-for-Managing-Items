@@ -23,7 +23,7 @@ export const createNewItem = (
   const { name } = req.body;
 
   if (!name || typeof name !== "string") {
-    return new AppError("Name is required and must be a string.", 400);
+    return next(new AppError("Name is required and must be a string.", 400));
   }
 
   const newItem: Item = {
