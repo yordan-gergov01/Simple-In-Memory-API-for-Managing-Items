@@ -39,16 +39,27 @@ This is a lightweight Express-based REST API built with TypeScript. It allows us
  - GET /api/v1/items
  - Returns a list of all items
 
+
    {
+   
   "status": "success",
+  
   "data": {
+  
     "items": [
+    
       {
+      
         "id": "uuid-v4-string",
+        
         "name": "Sample Item"
+        
       }
+      
     ]
+    
   }
+  
 }
 
 
@@ -80,7 +91,9 @@ This is a lightweight Express-based REST API built with TypeScript. It allows us
  - 
 
    {
+   
   "name": "Example Item"
+  
 }
 
 
