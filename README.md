@@ -19,12 +19,13 @@ This is a lightweight Express-based REST API built with TypeScript. It allows us
 
 1. Clone the repository:
    git clone https://github.com/yordan-gergov01/Simple-In-Memory-API-for-Managing-Items.git
+   
    cd simple-in-memory-api
 
-2. Install dependencies
+3. Install dependencies
    npm install
 
-3. Create a .env file in the root directory and set the application port:
+4. Create a .env file in the root directory and set the application port:
    APP_PORT=3000
 
 
