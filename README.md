@@ -18,7 +18,7 @@ This is a lightweight Express-based REST API built with TypeScript. It allows us
 ## Installation
 
 1. Clone the repository:
-   git clone https://github.com/your-username/simple-in-memory-api.git
+   git clone [https://github.com/your-username/simple-in-memory-api.git](https://github.com/yordan-gergov01/Simple-In-Memory-API-for-Managing-Items.git)
    cd simple-in-memory-api
 
 2. Install dependencies
